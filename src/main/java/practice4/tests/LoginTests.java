@@ -52,6 +52,7 @@ public class LoginTests {
         softAssert.assertEquals(driver.getCurrentUrl(), LoginPage.URL, "You are NOT on login page.");
         softAssert.assertEquals(driver.getTitle(), title, "Wrong title after unsuccessful login");
         softAssert.assertEquals(actualMsg, expectedMsg, "Validation error message is not valid.");
+        softAssert.fail("This is my awesome failure ! ! !");
         softAssert.assertAll();
     }
 
