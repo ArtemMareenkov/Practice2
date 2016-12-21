@@ -10,8 +10,8 @@
             <class name="practice4.tests.LoginTests"/>
         </classes>
     </test>
-
-    <!--<test name="Login Tests2">
+<!--
+    <test name="Login Tests2">
         <parameter name="usrn" value="admin"/>
         <parameter name="pswrd" value="1234"/>
         <parameter name="ttl" value="Players"/>
